@@ -8,7 +8,7 @@ on:
       ARM_SUBSCRIPTION_ID:
         required: true
 permissions:
-      id-token: write
+      id-token: none
       contents: read
 jobs: 
   build-and-deply:
