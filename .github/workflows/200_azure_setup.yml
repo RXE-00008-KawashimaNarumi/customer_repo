@@ -9,6 +9,9 @@ on:
                 type: "string"
                 default: "test"
                 required: false
+permissions:
+  id-token: write
+  contents: read
 jobs:
     job_01:
         name: "920_問い合わせ用アカウント作成"
