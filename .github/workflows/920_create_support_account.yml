@@ -20,6 +20,9 @@ on:
         description: "環境名"
         type: "string"
         required: true
+permissions:
+  id-token: write
+  contents: read
     # NOTE: 将来的には他からAPIでユーザ作成に必要なパラメータが渡ってくる想定であるものの、
     #       現状はtfvarsで読み取っている。
     # inputs:
