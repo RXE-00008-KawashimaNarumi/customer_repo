@@ -13,6 +13,8 @@ on:
         required: true
       ARM_TENANT_ID:
         required: true
+      ARM_ACCESS_KEY:
+        required: true
     inputs:
       ENVIRONMENT:
         description: "環境名"
