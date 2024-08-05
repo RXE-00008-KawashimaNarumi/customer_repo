@@ -57,6 +57,7 @@ jobs:
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
       ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+      ARM_ACCESS_KEY: ${{ secrets.ARM_ACCESS_KEY }}
       # NOTE: terraform working directoryは一旦ここで指定する。
       #       将来的には他からAPI等を使って呼び出されるときに一緒にパラメータとして受け取るようにしたい。
       TF_WORK_DIR: "920_create_support_account"
